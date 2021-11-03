@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>STUDENT ACADEMICS</title>
+	<style>
+		div
+		{
+			background: linear-gradient(45deg,red,yellow,green,orange);
+			padding: 20px;
+			width: 500px;
+			box-shadow: 0 0 10px black;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Student Academics</legend>
+				<table align="center">
+					<tr>
+						<td><label>Username</label></td>
+						<td><input type="text" name="usn"></td>
+					</tr>
+					<tr>
+						<td><label>Institute</label></td>
+						<td><input type="text" name="inst"></td>
+					</tr>
+					<tr>
+						<td><label>Branch</label></td>
+						<td><select>
+							<option value="">---Select---</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Mumbai">Mumbai</option>
+							<option value="MP">MP</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><label>Degree</label></td>
+						<td><select>
+							<option value="">---Select---</option>
+							<option value="BCA">BCA</option>
+							<option value="MBA">MBA</option>
+						    <option value="BA">BA</option>
+						    <option value="Btech">Btech</option>
+						    <option value="Mpharm">Mpharm</option>
+						</select>
+						<input type="radio" name="p1">Pursuing
+						<input type="radio" name="p1">Completed
+					</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Average CPT</label>
+
+						</td>
+						<td>
+							 <input type="number" name="avgc" min="60" max="100">
+						     <label>Upto</label>
+						<input type="number" name="rng" min="1" max="8">
+						Th Semester
+					</td>
+					</tr>
+					<tr>
+						<td><label>Experience</label></td>
+						<td><input type="number" name="exp" min="2" max="15"></td>
+					</tr>
+					<tr>
+						<td><label>Your Website or Blog</label></td>
+						<td><input type="url" name="url" placeholder="https://"></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<input type="submit" name="">
+							<input type="reset" name="">
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
